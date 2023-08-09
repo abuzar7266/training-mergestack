@@ -139,7 +139,7 @@ li{
 }
 
 li::marker{
-    content: "›";
+    content: "â€º";
     color: #09BF53;
     font-size: 1em;
     font-stretch: condensed;
