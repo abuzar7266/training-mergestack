@@ -1,0 +1,211 @@
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin: 0;
+    background-color: #F8F9FA;
+}
+.container{
+    width: 1600px;
+    height: 890px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header{
+    z-index: 1;
+    padding-top: 35px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.9vh;
+    font-weight:600;
+    color: #3b3663;
+    opacity: 90%;
+    text-align: center;
+}
+
+.card-container{
+    margin-left: 15%;
+    display: flex;
+}
+.price-card{
+    margin: 10px;
+    align-items: center;
+    margin-top: 60px;
+    width: 350px;
+    height: 450px;
+    background-color: #F8F9FA;
+    border: 4px solid rgba(148, 146, 148, 0.28);
+    border-radius: 10px;
+}
+.star-shape{
+    border-left: 90px solid #09BF53;
+	border-bottom: 80px solid transparent;
+    z-index: 3;
+    position: absolute;
+}
+.price-card:nth-child(2){
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+    height: 550px;
+    background-color: #F8F9FA;
+    border: 4px solid #09BF53;
+    border-radius: 10px;
+}
+.price-card:hover{
+    margin-top: 0px;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+
+.star-logo{
+    z-index: 4;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-header{
+    margin-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight:600;
+    color: #3b3663;
+    opacity: 90%;
+    text-align: center;
+}
+.card-header:nth-child(2){
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight:600;
+    color: #3b3663;
+    opacity: 90%;
+    text-align: center;
+}
+
+.plan{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    color: #3b3663;
+    opacity: 90%;
+    text-align: center;
+}
+
+.price {
+    font-weight:bolder;
+}
+
+.limit-block{
+    margin-left: 20%;
+    height: 20px;
+    width: 80%;
+    border: 2px solid rgba(148, 146, 148, 0.28);
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6vh;
+    font-weight: bold;
+    color: #09BF53;
+    opacity: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.plan-backline{
+    width: 250px;
+    margin-left: 50px;
+    z-index: 1;
+    position: absolute;
+    color: rgba(148, 146, 148, 0.28);
+}
+
+ul{
+    margin-left: 0;
+    margin-top: 30%;
+    font-family: 'Verdana', sans-serif;
+    font-size: 2.1vh;
+    color: black;
+    opacity: 60%;
+}
+
+li{
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+li::marker{
+    content: "›";
+    color: #09BF53;
+    font-size: 1em;
+    font-stretch: condensed;
+}
+.card-button{
+    margin-left: 25%;
+    background-color: rgba(222, 221, 221, 0.756);
+    font-size: larger;
+    color: #09BF53;
+    border: none;
+    height:60px;
+    width: 52%;
+    border-radius: 10px;
+}
+.card-button:hover{
+    background-color: #09BF53;
+    color: rgba(255, 255, 255, 0.955);
+}
+.card-main-button {
+    margin-left: 25%;
+    background-color: #09BF53;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.955);
+    border: none;
+    height:60px;
+    width: 52%;
+    border-radius: 10px;
+}
+
+.card-main-button:hover {
+    background-color: rgba(222, 221, 221, 0.756);
+    color: #09BF53;
+};
+
+.side-navigator-container{
+    width: 1600px;
+    height: 890px;
+}
+
+.side-navigator{
+    margin-top: 5%;
+    margin-left: 93%;
+    height: 400px;
+    width: 7%;
+    background-color: #0C1326;
+    z-index: 2;
+    position: fixed;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.side-navs{
+    color:rgba(205, 205, 205, 0.405);
+}
+
+.side-navs:hover{
+    color:#9398AB;
+}
+
+.footer{
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    font-weight:600;
+    color: #3b3663;
+    opacity: 100%;
+    text-align: center;   
+}
