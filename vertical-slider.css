@@ -1,0 +1,139 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.google.com/css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+body{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#slider-v{
+    border:none;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-s-v{
+    height: 400px;
+    margin: 0;
+}
+.subcontainer-s-v{
+    height: 400px;
+    margin:0;
+}
+
+.controller-v{
+    display:flex;
+    justify-content: space-between;
+}
+#controls-v i{
+    color: white;
+    font-size: 1rem;
+}
+
+.previous-v, .next-v{
+    padding: 2px;
+    width:30px;
+    cursor: pointer;
+    border: 50px;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border: 3px solid white;
+    background-color: black;
+    box-shadow: 0 0 5px #bbb;
+}
+.previous-v:hover, .next-v:hover{
+    border: 3px solid gray;
+}
+
+
+.slide-img-v{
+    width:100px;
+    height:100px;
+    border: 1px solid white;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.slide-img-v:hover{
+    box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+.slide-img-v a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.slide-img-v:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-size{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+.img-1-v{
+    background-image: url('./img/iv-1.avif');
+}
+
+.img-2-v{
+    background-image: url('./img/iv-2.avif');
+}
+
+.img-3-v{
+    background-image: url('./img/iv-3.avif');
+}
+
+.img-4-v{
+    background-image: url('./img/iv-4.avif');
+}
+.img-5-v{
+    background-image: url('./img/iv-5.avif');
+}
+
+.img-6-v{
+    background-image: url('./img/iv-6.webp');
+}
+
+.img-7-v{
+    background-image: url('./img/iv-7.avif');
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+.img-8-v{
+    background-image: url('./img/iv-8.avif');
+}
+
+.img-9-v{
+    background-image: url('./img/iv-9.avif');
+}
+
+.img-10-v{
+    background-image: url('./img/iv-10.avif');
+}
+.img-11-v{
+    background-image: url('./img/iv-11.avif');
+}
+
+.img-10-v{
+    background-image: url('./img/iv-12.avif');
+}
+.img-12-v{
+    background-image: url('./img/iv-13.webp');
+}
+@media(max-width:1600px){
+    .container-s-v{
+        height: 100%;
+    }
+}
